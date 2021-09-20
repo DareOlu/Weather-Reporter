@@ -1,0 +1,86 @@
+
+* {
+  margin: 0 0 0  0;
+  padding: 0;
+}
+html{
+  margin: 0 0 0 0;
+}
+
+body,
+#app {
+  height: 100%;
+}
+
+#app {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  
+  padding: 10% 10% 10% 10%;
+  background: rgb(212, 228, 239);
+  background: -moz-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(212, 228, 239, 1) 0%,
+    rgba(134, 174, 204, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(212, 228, 239, 1) 0%,
+    rgba(134, 174, 204, 1) 100%
+  );
+  background: radial-gradient(
+    ellipse at center,
+    rgba(212, 228, 239, 1) 0%,
+    rgba(134, 174, 204, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.w-input {
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 0;
+  width: 80%;
+  align-self: center;
+}
+
+.w-result {
+  text-align: center;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+  font-size: 1.3rem;
+  font-weight: bold;
+
+}
+
+.w-error {
+  color: red;
+  font-weight: bold;
+}
+
+input {
+  width: 60%;
+  outline: snow;
+  height: 20px;
+  font-size: 0.8rem;
+  border-radius: 5px;
+}
+
+button {
+  display: block;
+  width: 30%;
+  height: 25px;
+  outline: none;
+  border-radius: 5px;
+  white-space: nowrap;
+  margin: 0 10px;
+  font-size: 0.8rem;
+}
+
+h1 {
+  font-size: 2.3rem;
+}
