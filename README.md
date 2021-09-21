@@ -1,4 +1,4 @@
-# weather-desktop
+# Weather Report - Desktop App
 
 ## Project setup
 ```
